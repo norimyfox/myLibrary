@@ -2,38 +2,52 @@
 
 DISPLAY
 
-$('selector').show // display = ""
-$('selector').hide // display = "none"
-$('selector').toggle // if display == "none" -> display = "" and vice versa
+<code>$('selector').show</code> display = ""
+
+<code>$('selector').hide</code> display = "none"
+
+<code>$('selector').toggle</code> if display == "none" -> display = "" and vice versa
 
 CLASSES
 
-$('selector').addClass('className')
-$('selector').removeClass('className')
-$('selector').toggleClass('className')
+<code>$('selector').addClass('className')</code>
+
+<code>$('selector').removeClass('className')</code>
+
+<code>$('selector').toggleClass('className')</code>
 
 ATTRIBUTES
 
-$('selector').setAttr('attribute', 'value')
-$('selector').getAttr('attribute', 'value')
-$('selector').toggleAttr('attribute', 'value')
+<code>$('selector').setAttr('attribute', 'value')</code>
+
+<code>$('selector').getAttr('attribute', 'value')</code>
+
+<code>$('selector').toggleAttr('attribute', 'value')</code>
 
 ACTIONS
 
-$('selector').html('content')
-$('selector').eq(i)
-$('selector').index()
-$('selector').find('selector')
-$('selector').closest('selector')
-$('selector').siblings()
+<code>$('selector').html('content')</code>
+
+<code>$('selector').eq(i)</code>
+
+<code>$('selector').index()</code>
+
+<code>$('selector').find('selector')</code>
+
+<code>$('selector').closest('selector')</code>
+
+<code>$('selector').siblings()</code>
 
 HANDLERS
 
-$('selector').on(eventName, callback)
-$('selector').off(eventName, callback)
-$('selector').click('handler')
+<code>$('selector').on(eventName, callback)</code>
+
+<code>$('selector').off(eventName, callback)</code>
+
+<code>$('selector').click('handler')</code>
 
 EFFECTS
 
-$('selector').fadeIn(time)
-$('selector').fadeOff(time)
+<code>$('selector').fadeIn(time)</code>
+
+<code>$('selector').fadeOff(time)</code>
