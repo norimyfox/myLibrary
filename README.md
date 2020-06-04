@@ -1,5 +1,13 @@
 # myLib
 
+**This JS library was written during the course in UDEMY**
+
+**Trial site which is written on this library and a small addition from https://github.com/norimyfox/LibOOP**
+
+An example is presented on the website: https://norimyfoxlib.github.io/
+
+**What the library contains:**
+
 DISPLAY
 
 <code>$('selector').show</code> display = ""
