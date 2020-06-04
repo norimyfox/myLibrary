@@ -1,4 +1,4 @@
-# myLib
+# Library
 
 **This JS library was written during the course in UDEMY**
 
